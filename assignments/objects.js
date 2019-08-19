@@ -64,6 +64,8 @@ const Antonietta = {
 
 // Mitzi's name
 
+console.log(Mitzi.name);
+
 // Kennan's ID
 
 // Keven's email
