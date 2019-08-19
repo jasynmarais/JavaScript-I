@@ -42,6 +42,15 @@ const Keven = {
   "gender": "M"
 }
 
+const Gannie = {
+  "id": 4,
+  "name": "Gannie",
+  "email": "gmartinson2@illinois.edu",
+  "gender": "M"
+}
+
+
+
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
