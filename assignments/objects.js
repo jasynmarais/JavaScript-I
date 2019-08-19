@@ -72,6 +72,8 @@ console.log(Kennan.id);
 
 // Keven's email
 
+console.log(Keven.email);
+
 // Gannie's name
 
 // Antonietta's Gender
