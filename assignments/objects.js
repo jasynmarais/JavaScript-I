@@ -68,6 +68,8 @@ console.log(Mitzi.name);
 
 // Kennan's ID
 
+console.log(Kennan.id);
+
 // Keven's email
 
 // Gannie's name
