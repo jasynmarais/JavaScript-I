@@ -22,8 +22,20 @@ const Mitzi = {
   "id": 1,
   "name": "Mitzi",
   "email": "mmelloy0@psu.edu",
-  "gender": "F"
+  "gender": "F",
 }
+
+const Kennan = {
+  "id": 2,
+  "name": "Kennan",
+  "email": "kdiben1@tinypic.com",
+  "gender": "M",
+  speak: function() {
+    return `Hello, my name is ${this.name}!`
+  }
+}
+
+
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
