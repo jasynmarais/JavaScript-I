@@ -76,6 +76,8 @@ console.log(Keven.email);
 
 // Gannie's name
 
+console.log(Gannie.name);
+
 // Antonietta's Gender
 
 // ==== Challenge 3: Object Methods ==== 
