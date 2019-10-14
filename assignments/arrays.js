@@ -122,4 +122,12 @@ console.log("The number of cars on the lot older than the year 2000 = " + (oldCa
 
 // ==== Challenge 6 ====
 // A buyer is interested in seeing only BMW and Audi cars within the inventory. Return an array that only contains BMW and Audi cars.  Once you have populated the BMWAndAudi array, use JSON.stringify() to show the results of the array in the console.
+console.log("Arrays - Challenge 6:");
+let BMWAndAudi = [];
+for (count = 0; count < inventory.length; count++) {
+    if (inventory[count].car_make == "BMW" || inventory[count].car_make == "Audi") {
+        BMWAndAudi.push(inventory[count]);
+    }
+}
 
+console.log("Here are all the BMW and Audi cars on the lot: " + JSON.stringify(BMWAndAudi));
