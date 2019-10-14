@@ -89,31 +89,31 @@ console.log(`The last car is a ${lastCar.car_year} ${lastCar.car_make} ${lastCar
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
 console.log("Arrays - Challenge 3:");
 let carModels = [];
-for (count = 0; count < inventory.length; count ++) {
-    carModels.push (inventory[count].car_model);
+for (let i = 0; i < inventory.length; i++) {
+    carModels.push (inventory[i].car_model);
 }
 carModels.sort();
-for (count = 0; count < carModels.length; count++) {
-    console.log(carModels[count]);
+for (let i = 0; i < carModels.length; i++) {
+    console.log(carModels[i]);
 }
 
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data containing only the car years and log the result in the console.
 console.log("Arrays - Challenge 4:");
 let carYears = [];
-for (count = 0; count < inventory.length; count++) {
-    carYears.push(inventory[count].car_year);
+for (let i = 0; i < inventory.length; i++) {
+    carYears.push(inventory[i].car_year);
 }
 carYears.sort();
-for (count = 0; count < carYears.length; count++) {
-    console.log(carYears[count]);
+for (let i = 0; i < carYears.length; i++) {
+    console.log(carYears[i]);
 }
 
 // ==== Challenge 5 ====
 // The car lot manager needs to find out how many cars are older than the year 2000. Using the carYears array you just created, find out how many cars were made before the year 2000 by populating the array oldCars and logging it's length.
 console.log("Arrays - Challenge 5:");
 let oldCars =[];
-console.log(); 	for (let i = 0; i <inventory.length; i++){
+for (let i = 0; i <inventory.length; i++) {
     if (inventory[i].car_year < 2000){
         oldCars.push(inventory[i])
     }
@@ -124,9 +124,9 @@ console.log("The number of cars on the lot older than the year 2000 = " + (oldCa
 // A buyer is interested in seeing only BMW and Audi cars within the inventory. Return an array that only contains BMW and Audi cars.  Once you have populated the BMWAndAudi array, use JSON.stringify() to show the results of the array in the console.
 console.log("Arrays - Challenge 6:");
 let BMWAndAudi = [];
-for (count = 0; count < inventory.length; count++) {
-    if (inventory[count].car_make == "BMW" || inventory[count].car_make == "Audi") {
-        BMWAndAudi.push(inventory[count]);
+for (let i = 0; i < inventory.length; i++) {
+    if (inventory[i].car_make == "BMW" || inventory[i].car_make == "Audi") {
+        BMWAndAudi.push(inventory[i]);
     }
 }
 
